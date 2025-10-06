@@ -1,0 +1,249 @@
+
+body {
+    background-size: 100% 100%;margin:0px;background-color: wheat;}
+.background-image {
+    background-image: url(wheat1.jpg);
+    background-size:auto;
+    background-repeat:repeat ;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.image-row {
+  display: flex;
+  justify-content: space-between;
+}
+.not-image-row {
+  display: flex;
+  justify-content:space-around;
+}
+
+.containe{
+  padding:0 100px;
+
+}
+.second_img{
+  max-width: 700px;
+  float :right;
+  border-radius:12px;
+  border: 3px solid brown;
+  margin-left:20px;
+}
+
+.main_img{
+  max-width: 500px;
+  float:left;
+  border-radius: 10px;
+  border: 3px solid brown;
+  margin-right:20px;
+}
+  h2{font-size:50px;}
+  h6{font-size: 8pt;color:black;font-style:arial;text-align:left;}
+  h4{font-size: 20pt;color:black;font-size: medium;text-align:left;}
+  h1 {font-size:20pt;color:brown;font-style:italic;text-align:center;}
+  h3 {font-size:20pt;color:brown;font-style:italic;text-align:left;}
+  .navbar ul{
+    list-style-type: none;
+    background-color:grey;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+  }
+  .navbar a{
+    color:wheat;
+    text-decoration: none;
+    padding:15px;
+    display:block;
+    text-align: center;
+  }
+  .navbar a:hover{
+    background-color: black;
+  }
+  .navbar li{
+    float:left;
+  }
+  
+    p {
+              font-size: 16px; 
+              margin-bottom: 20px;
+              text-indent:10px;
+              padding-left: 10px;
+          }
+          
+          
+          .important {
+              font-weight: bold;
+              color: Black;
+              font-size:20px;
+      
+          }
+  
+          .quote {
+              font-style: italic;
+              color: black; 
+              font-size: 20px;
+          }
+          .normal{
+            font-style:arial;
+            color: #741b47;
+            font-size:20px;
+            padding-left: 20px;
+          }
+
+  ol {font-size:20px}
+  ul {font-size:20px}
+  .box1{
+    height:1500px;
+    width:725px;
+    background-image:url(wheat1.jpg) ;
+    float:left;
+  }
+  .box2{
+    height:1500px;
+    width:725px;
+    background-image:url(wheat1.jpg);
+    float:right;
+  }
+  .margine{
+    border-radius: 10px;
+    border: 3px solid #741b47;
+    margin-right:20px;
+  }
+
+  .chestie{
+    color:rgb(91, 8, 8);
+  }
+  .beet{
+    color: #741b47;
+  }
+
+.logo{
+  width: 50px;
+  height: 50px;
+  margin: 0;
+  padding:0;
+}
+
+.container1 {
+  background-color:wheat;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+}
+.container h2 {
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form-group input[type="file"] {
+  padding: 3px;
+}
+.form-group .checkbox-group {
+  display: flex;
+  flex-direction: column;
+}
+.form-group .checkbox-group label {
+  margin-bottom: 5px;
+}
+.form-group .checkbox-group input {
+  width: auto;
+  margin-right: 10px;
+}
+.form-group button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.form-group button:hover {
+  background-color: #218838;
+}
+
+
+.cookie-consent-modal {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cookie-consent-modal .content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cookie-consent-modal .btns {
+  margin-top: 20px;
+}
+
+.cookie-consent-modal .btn {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cookie-consent-modal .btn.cancel {
+  background: #f44336;
+  color: #fff;
+}
+
+.cookie-consent-modal .btn.accept {
+  background: #4caf50;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form label {
+  margin-bottom: 10px;
+}
+
+form input[type="button"] {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+form input[type="button"]:hover {
+  background-color: #218838;
+}

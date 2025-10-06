@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name = "viewport" content = "width = device-width,init:"/>
+        <link rel = "stylesheet" href = "style.css"/>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <title>We are hiring!</title>
+    </head>
+    <body class="background-image">
+        <script src="javascript.js" type="text/javascript"></script>
+        <h1>Want to bake? Come with us!</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="Bakery main page.html" class="nav-link">Home</a></li>
+                <li><a href="Products.html" class="nav-link">Products/Top Sellers</a></li>
+                <li><a href="Menu.html" class="nav-link">Menu</a></li>
+                <li><a href="Ingredients_Farms.html" class="nav-link">Ingredients/Farms</a></li>
+                <li><a href="Hiring.html" class="nav-link">Hiring</a></li>
+                <li><a href="Contact.html" class="nav-link">Contact/Information</a></li>
+            </ul>
+        </nav>
+        <p class="important">We are HIRING! So if you think you have the skills to become Brasov's best baker in town come and try</p>
+        <h1>Why chose us?</h1>
+        <ul type="square">
+            <li><h3>Passionate and Collaborative Environment:</h3></li>
+            <p class="normal"> Our bakery thrives on the passion and creativity of our team. We foster a collaborative atmosphere where every voice is heard, and every idea is valued. Working with us means being part of a supportive community that encourages innovation and growth.</p>
+            <li><h3>Commitment to Excellence:</h3></li>
+            <p class="normal">We take pride in our commitment to excellence, not just in the products we create but also in the work environment we provide. Our team is dedicated to mastering their craft, constantly learning and improving to ensure we deliver the best to our customers.</p>
+            <li><h3>Quality Ingredients and Sustainable Practices:</h3></li>
+            <p class="normal">Our dedication to quality extends beyond our products to the way we operate. We source the finest ingredients from local farms and adhere to sustainable practices, ensuring a healthier planet and a healthier workplace for our team.</p>
+            <li><h3>Opportunities for Growth and Development:</h3></li>
+            <p class="normal">We believe in nurturing talent from within. When you join our team, you’ll have access to continuous learning opportunities, training programs, and the chance to advance your career within our growing bakery.</p>
+            <li><h3>Inclusive and Diverse Workplace:</h3></li>
+            <p class="normal">Our bakery is a place where diversity is celebrated, and inclusivity is a cornerstone of our culture. We welcome individuals from all backgrounds and walks of life, fostering a workplace where everyone feels valued and respected.</p>
+            <li><h3>Creating Meaningful Connections:</h3></li>
+            <p class="normal ">Working at Best Bakery is about more than just baking bread; it’s about creating meaningful connections with our community, our customers, and each other. Join us, and be part of a team that brings joy and nourishment to our community every day.</p>
+        </ul>
+        
+    <h1> Submit CV and we keep in touch!</h1>
+    <div class="image-row">
+        <section>
+<div class="container1">
+    <h2>Submit Your Information</h2>
+    <form id="infoForm" action="/submit" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="question">Question</label>
+            <textarea id="question" name="question" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+            <label for="cv">Upload CV</label>
+            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+        </div>
+        <div class="form-group checkbox-group">
+            <label><input type="checkbox" name="terms" required> I agree to the terms and conditions</label>
+            <label><input type="checkbox" name="subscribe"> Subscribe to newsletter</label>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+</section>
+<section>
+<form id="feedbackForm">
+    <p class="important">What did you like about Best Bakery?</p>
+    <input type="checkbox" id="answer1" name="answer1" value="The content">
+    <label for="answer1">1.The conent</label><br>
+    <input type="checkbox" id="answer2" name="answer2" value="The presentation">
+    <label for="answer2">2.The presentation</label><br>
+    <input type="checkbox" id="answer3" name="answer3" value="The stuff we do">
+    <label for="answer3">3.The stuff we do</label><br>
+    <input type="checkbox" id="answer4" name="answer4" value="The team">
+    <label for="answer4">4.The team firm</label><br>
+    <input type="checkbox" id="answer5" name="answer5" value="Other stuff">
+    <label for="answer5">5.Other stuff</label><br>
+    <input type="button" value="Submit" onclick="Message('Answers submited')">
+   </form>
+</section>
+</div>
+        <footer>
+            <p>&copy; 2024 Best Bakery. All rights reserved.</p>
+        </footer>
+    </body>
